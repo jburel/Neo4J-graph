@@ -57,6 +57,7 @@ rm neo4j-community-${VERSION}-unix.tar.gz
 # and you will be required to update the original default password 
 ${CONDA_DIR}/neo4j-community/bin/neo4j-admin set-initial-password neo4jbinder
 
+cp -R src /tmp
 cp -R data ${CONDA_DIR}/neo4j-community/import
 
 # configure
