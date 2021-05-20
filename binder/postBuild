@@ -74,3 +74,5 @@ export PATH=/srv/conda/notebook/bin:$PATH
 python $HOME/src/amr-script.py -d neo4j
 python $HOME/src/mic-script.py -d neo4j
 
+${CONDA_DIR}/neo4j-community/bin/neo4j stop
+

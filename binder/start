@@ -3,6 +3,6 @@ set -eux
 
 
 ln -s "$CONDA_DIR/vnc/Desktop"
-
+${CONDA_DIR}/neo4j-community/bin/neo4j start
 
 exec "$@"
